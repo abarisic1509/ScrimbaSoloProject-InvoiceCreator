@@ -1,0 +1,165 @@
+:root {
+    --primary: #3A69D2;
+    --lightGrey: #D5D4D8;
+    --purpleGrey: #D1D4F4;
+    --almostBlack: #1F2937;
+    --btnText: #4A4E74;
+    --white: #fff;
+}
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+h2 {
+    font-size: .6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+button {
+    font-family: inherit;
+    color: inherit;
+    border: none;
+    background-color: transparent;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.invoice-creator {
+    max-width: 30rem;
+    margin-inline: .5em;
+}
+.header-wrapper {
+    background-color: var(--primary);
+    padding: 2em 3em;
+    color: var(--white);
+    text-align: center;
+}
+
+.body-wrapper {
+    color: var(--lightGrey);
+    background-color: var(--almostBlack);
+    padding: 1.5em 1.5em 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.body-wrapper button {
+    background-color: var(--primary);
+    font-size: .7rem;
+    padding: .8em;
+    border-radius: .5em;
+    cursor: pointer;
+}
+.body-wrapper button svg {
+    width: .7rem;
+    height: .5rem;
+    margin-right: .4em;
+}
+
+.btns-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    font-size: .6rem;
+    gap: .5em;
+}
+
+.btns-wrapper button {
+    font-size: .7rem;
+    color: var(--btnText);
+    background-color: var(--purpleGrey);
+    padding: .8em 1em;
+    margin-bottom: .5em;
+    border-radius: .3em;
+    cursor: pointer;
+}
+
+.items-wrapper {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: .7em;
+}
+
+.items-wrapper > h2:not(:first-child){
+    text-align: right;
+}
+
+.items-wrapper > p:last-child {
+    font-size: 1.4rem;
+}
+
+#task-container {
+    display: flex;
+    flex-direction: column;
+    gap: .4em;
+}
+
+#task-container p {
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.task {
+    display: flex;
+}
+.task button {
+    margin-left: .5em;
+}
+
+#price-container p {
+    font-size: 1.3rem;
+    text-align: right;
+    font-weight: 500;
+}
+#price-container span {
+    color: #918e9b;
+}
+
+.total-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    border-top: 1px solid var(--purpleGrey);
+    padding-top: .8em;
+}
+
+.notes-wrapper,
+.amount-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .3em;
+}
+
+.amount-wrapper {
+    text-align: right;
+}
+
+.notes-wrapper p {
+    font-size: .6rem;
+}
+
+.amount-wrapper p:last-child {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
