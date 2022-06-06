@@ -15,7 +15,7 @@
 -Buttons to add services to array
 -Display and update data from array
 -Not charging more than once per service
--Total cost stays udated
+-Total cost stays updated
 -Reset button ('Send invoice')
 -Strech goal: remove buttons for each service
 
@@ -25,8 +25,7 @@
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/blogr-landing-page-SJFsdHdVc](https://www.frontendmentor.io/solutions/blogr-landing-page-SJFsdHdVc)
-- Live Site URL: [https://fem-blogr-landing-page-v2.netlify.app/](https://your-live-site-url.com)
+- Live Site URL: [https://ss-invoice-creator.netlify.app/](https://your-live-site-url.com)
 
 ### Built with
 
