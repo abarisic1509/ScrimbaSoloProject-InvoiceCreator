@@ -21,7 +21,7 @@
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./invoice-creator_screenshot.png)
 
 ### Links
 
