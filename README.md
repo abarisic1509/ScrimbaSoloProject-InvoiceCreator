@@ -33,7 +33,7 @@
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- Sass
+- Css
 - Javascript
 
 
